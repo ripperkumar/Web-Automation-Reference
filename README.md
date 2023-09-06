@@ -36,7 +36,7 @@ Expectations:
 - Robust and scalable framework
   
 **GUIDELINES**
-- Time - 4 days
+- Time Limit -  3 Work Days
 - Pick the tech stack for which you got training
 - Create branch under this by your name and make commit only in that branch
 
