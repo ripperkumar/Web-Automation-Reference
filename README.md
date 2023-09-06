@@ -33,7 +33,7 @@ Expectations:
 - Use of coding best practices
 - Parallel execution of tests
 - Good visualization of test results
-- Framework should be robust and scalable
+- Robust and scalable framework
   
 **GUIDELINES**
 - Time - 4 days
