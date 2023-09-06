@@ -17,7 +17,7 @@ Write **Web automation** tests for the **first 5** features of this application.
 
 Expectations:
 -
-- **MUST HAVE** -
+**MUST HAVE**
 - Test Case documentation (Including +ve and -ve scenarios)
 - Not just automation code, proper automation framework
 - Automation report
