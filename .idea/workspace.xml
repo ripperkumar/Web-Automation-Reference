@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ed9182a-b39a-4abb-8664-ccd463566335" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/LandingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/RegisterPatientPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/UtilityComponents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/GlobalData.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/TestOpenmrs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/OpenmrsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/UtilityComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/UtilityComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/GlobalData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/GlobalData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/OpenmrsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/OpenmrsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
