@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ed9182a-b39a-4abb-8664-ccd463566335" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/UtilityComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/UtilityComponents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/GlobalData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/GlobalData.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/OpenmrsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/OpenmrsTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="9ed9182a-b39a-4abb-8664-ccd463566335" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -76,5 +71,8 @@
       <updated>1694066587872</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
