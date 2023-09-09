@@ -1,6 +1,5 @@
 package parabank_first5;
 
-import io.opentelemetry.api.internal.Utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,10 +17,31 @@ public class HomePage extends UtilityComponents {
     @FindBy(partialLinkText = "Register a patient")
     WebElement registerPatient;
 
+    @FindBy(partialLinkText = "Find Patient Record")
+    WebElement findPatientRecord;
+    @FindBy(partialLinkText = "Configure Metadata")
+    WebElement configureMetaData;
+    @FindBy(partialLinkText = "Appointment Scheduling")
+    WebElement appointmentScheduling;
+
     public RegisterPatientPage goToRegisterPatient() {
         registerPatient.click();
         RegisterPatientPage registerPatientPage = new RegisterPatientPage(driver);
         return registerPatientPage;
     }
 
+    public FindPatientRecord goToFindPatientRecord() {
+        findPatientRecord.click();
+        FindPatientRecord findPatientRecord = new FindPatientRecord(driver);
+        return findPatientRecord;
+    }
+
+
+    public void goToConfigureMetadata() {
+        configureMetaData.click();
+    }
+
+    public void goToAppointmentScheduling() {
+        appointmentScheduling.click();
+    }
 }
