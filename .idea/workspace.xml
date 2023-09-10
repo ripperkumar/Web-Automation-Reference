@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ed9182a-b39a-4abb-8664-ccd463566335" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/AppointmentSchedulingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/ConfigureMetaDataPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/ManagePrivilegesPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/ManageServiceTypePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/FindPatient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/RegisterPatientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/OpenmrsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/OpenmrsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +76,8 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoginTest.TestRegisterPatient">
-    <configuration name="LoginTest.TestRegisterPatient" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LoginTest.sucessfulLogin">
+    <configuration name="LoginTest.TestErrorValidation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -96,7 +90,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;parabank_first5.LoginTest.TestRegisterPatient&quot;" />
+            <option value="&quot;parabank_first5.LoginTest.TestErrorValidation&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -107,7 +101,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="OpenmrsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTest.TestInvalidUserErrorValidation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -120,7 +114,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;parabank_first5.OpenmrsTest&quot;" />
+            <option value="&quot;parabank_first5.LoginTest.TestInvalidUserErrorValidation&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -131,7 +125,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="OpenmrsTest.TestFindPatient" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTest.emptyUserCredValidation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +138,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;parabank_first5.OpenmrsTest.TestFindPatient&quot;" />
+            <option value="&quot;parabank_first5.LoginTest.emptyUserCredValidation&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,7 +149,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="OpenmrsTest.TestManagePrivilege" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTest.invalidUserCredValidation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -168,7 +162,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;parabank_first5.OpenmrsTest.TestManagePrivilege&quot;" />
+            <option value="&quot;parabank_first5.LoginTest.invalidUserCredValidation&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -179,7 +173,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="OpenmrsTest.TestManageServiceType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTest.sucessfulLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -192,7 +186,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;parabank_first5.OpenmrsTest.TestManageServiceType&quot;" />
+            <option value="&quot;parabank_first5.LoginTest.sucessfulLogin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -205,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LoginTest.TestRegisterPatient" />
-        <item itemvalue="Gradle.OpenmrsTest.TestManageServiceType" />
-        <item itemvalue="Gradle.OpenmrsTest.TestManagePrivilege" />
-        <item itemvalue="Gradle.OpenmrsTest" />
-        <item itemvalue="Gradle.OpenmrsTest.TestFindPatient" />
+        <item itemvalue="Gradle.LoginTest.sucessfulLogin" />
+        <item itemvalue="Gradle.LoginTest.emptyUserCredValidation" />
+        <item itemvalue="Gradle.LoginTest.invalidUserCredValidation" />
+        <item itemvalue="Gradle.LoginTest.TestInvalidUserErrorValidation" />
+        <item itemvalue="Gradle.LoginTest.TestErrorValidation" />
       </list>
     </recent_temporary>
   </component>

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LandingPage extends UtilityComponents{
+public class LandingPage extends UtilityComponents {
     WebDriver driver;
 
     public LandingPage(WebDriver driver) {
@@ -21,7 +21,8 @@ public class LandingPage extends UtilityComponents{
     @FindBy(id = "Isolation Ward")
     WebElement location;
     @FindBy(id = "loginButton")
-    WebElement login;
+    WebElement login;    @FindBy(id = "error-message")
+    WebElement loginErrorMessg;
 
     public HomePage login(String LogInUsername, String LogInpassword) {
         userName.sendKeys(LogInUsername);
@@ -30,6 +31,10 @@ public class LandingPage extends UtilityComponents{
         login.click();
         HomePage homePage = new HomePage(driver);
         return homePage;
+    }
+
+    public String getLoginErrorMessg() {
+        return loginErrorMessg.getText();
     }
 
     public void goTo() {

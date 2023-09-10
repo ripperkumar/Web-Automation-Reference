@@ -16,13 +16,15 @@ public class HomePage extends UtilityComponents {
 
     @FindBy(partialLinkText = "Register a patient")
     WebElement registerPatient;
-
     @FindBy(partialLinkText = "Find Patient Record")
     WebElement findPatientRecord;
     @FindBy(partialLinkText = "Configure Metadata")
     WebElement configureMetaData;
     @FindBy(partialLinkText = "Appointment Scheduling")
     WebElement appointmentScheduling;
+
+    @FindBy(tagName = "h4")
+    WebElement userStatus;
 
     public RegisterPatientPage goToRegisterPatient() {
         registerPatient.click();
@@ -43,5 +45,9 @@ public class HomePage extends UtilityComponents {
     public AppointmentSchedulingPage goToAppointmentScheduling() {
         appointmentScheduling.click();
         return new AppointmentSchedulingPage(driver);
+    }
+
+    public String getUserStatus(){
+        return userStatus.getText();
     }
 }
