@@ -24,7 +24,7 @@ public class LoginTest extends BaseTest {
     @Test
     public void emptyUserCredValidation(){
         landingPage.login("", "");
-        String errormessg = landingPage.getLoginErrorMessg();
-        Assert.assertTrue(errormessg.contains("Invalid username/password."), "wrong error messg");
+        String errorMessg = landingPage.getLoginErrorMessg();
+        Assert.assertTrue(errorMessg.contains("Invalid username/password."), "wrong error messg");
     }
 }

@@ -18,8 +18,15 @@ public class ConfigureMetaDataPage extends UtilityComponents {
     @FindBy(partialLinkText = "Manage Privileges")
     WebElement managePrivileges;
 
+    @FindBy(css = "#breadcrumbs > li:last-child")
+    WebElement pageTitle;
+
     public ManagePrivilegesPages goToManagePrivilegesPage() {
         managePrivileges.click();
         return new ManagePrivilegesPages(driver);
+    }
+
+    public String getPageTitle() {
+        return pageTitle.getText();
     }
 }

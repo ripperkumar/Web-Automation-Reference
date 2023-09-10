@@ -31,9 +31,9 @@ public class HomePage extends UtilityComponents {
         return new RegisterPatientPage(driver);
     }
 
-    public FindPatientRecord goToFindPatientRecord() {
+    public FindPatientRecordPage goToFindPatientRecord() {
         findPatientRecord.click();
-        return new FindPatientRecord(driver);
+        return new FindPatientRecordPage(driver);
     }
 
 

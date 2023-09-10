@@ -14,6 +14,14 @@ public class AppointmentSchedulingPage extends UtilityComponents{
     @FindBy(partialLinkText = "Manage Service Types")
     WebElement manageServiceTypes;
 
+    @FindBy(css = "#breadcrumbs > li:last-child")
+    WebElement pageTitle;
+    public String getPageTitle() {
+        return pageTitle.getText();
+    }
+
+
+
     public ManageServiceTypePage goToManageServiceTypePage() {
         manageServiceTypes.click();
         return new ManageServiceTypePage(driver);
