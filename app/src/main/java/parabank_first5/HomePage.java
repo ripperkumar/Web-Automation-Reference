@@ -26,22 +26,22 @@ public class HomePage extends UtilityComponents {
 
     public RegisterPatientPage goToRegisterPatient() {
         registerPatient.click();
-        RegisterPatientPage registerPatientPage = new RegisterPatientPage(driver);
-        return registerPatientPage;
+        return new RegisterPatientPage(driver);
     }
 
     public FindPatientRecord goToFindPatientRecord() {
         findPatientRecord.click();
-        FindPatientRecord findPatientRecord = new FindPatientRecord(driver);
-        return findPatientRecord;
+        return new FindPatientRecord(driver);
     }
 
 
-    public void goToConfigureMetadata() {
+    public ConfigureMetaDataPage goToConfigureMetadata() {
         configureMetaData.click();
+        return new ConfigureMetaDataPage(driver);
     }
 
-    public void goToAppointmentScheduling() {
+    public AppointmentSchedulingPage goToAppointmentScheduling() {
         appointmentScheduling.click();
+        return new AppointmentSchedulingPage(driver);
     }
 }

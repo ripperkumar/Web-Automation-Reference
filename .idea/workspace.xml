@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ed9182a-b39a-4abb-8664-ccd463566335" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/FindPatientRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/AppointmentSchedulingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/ConfigureMetaDataPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/ManagePrivilegesPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/ManageServiceTypePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/FindPatient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/RegisterPatientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/OpenmrsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/OpenmrsTest.java" afterDir="false" />
@@ -19,6 +25,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,7 +82,55 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.OpenmrsTest.TestManageServiceType">
+  <component name="RunManager" selected="Gradle.LoginTest.TestRegisterPatient">
+    <configuration name="LoginTest.TestRegisterPatient" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;parabank_first5.LoginTest.TestRegisterPatient&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenmrsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;parabank_first5.OpenmrsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="OpenmrsTest.TestFindPatient" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -139,36 +203,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="OpenmrsTest.TestRegisterPatient" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;parabank_first5.OpenmrsTest.TestRegisterPatient&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoginTest.TestRegisterPatient" />
         <item itemvalue="Gradle.OpenmrsTest.TestManageServiceType" />
         <item itemvalue="Gradle.OpenmrsTest.TestManagePrivilege" />
+        <item itemvalue="Gradle.OpenmrsTest" />
         <item itemvalue="Gradle.OpenmrsTest.TestFindPatient" />
-        <item itemvalue="Gradle.OpenmrsTest.TestRegisterPatient" />
       </list>
     </recent_temporary>
   </component>
