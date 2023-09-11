@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class RegisterPatientTest extends BaseTest{
 
-    @Test
+    @Test(groups = {"ErrorValidation","RunAll"})
     public void navigateToRegisterPatientPage(){
         String expectedPageTitle = "Register a patient";
         HomePage homePage = landingPage.login("admin", "Admin123");
@@ -16,7 +16,7 @@ public class RegisterPatientTest extends BaseTest{
         Assert.assertEquals(pageTitle,expectedPageTitle, "PageTitle do not match");
     }
 
-    @Test
+    @Test(groups = {"RunAll","Sanity"})
     public void testRegisterPatient() throws InterruptedException, IOException {
         HomePage homePage = landingPage.login("admin", "Admin123");
         String givenName = "Priyanshu", familyName = "kumar", gender = "Male", birthYear = "23", birthMon = "9";

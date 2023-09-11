@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ManageServicesTypeTest extends BaseTest {
-    @Test
+    @Test(groups = {"ErrorValidation","RunAll"})
     public void navigateToAppointmentScheduling() {
         HomePage homePage = landingPage.login("admin", "Admin123");
         AppointmentSchedulingPage appointmentSchedulingPage = homePage.goToAppointmentScheduling();
@@ -12,7 +12,7 @@ public class ManageServicesTypeTest extends BaseTest {
         Assert.assertEquals(pagetitle, "Appointment Scheduling");
     }
 
-    @Test
+    @Test(groups = {"ErrorValidation","RunAll"})
     public void navigateToManageServicePage() {
         HomePage homePage = landingPage.login("admin", "Admin123");
         AppointmentSchedulingPage appointmentSchedulingPage = homePage.goToAppointmentScheduling();
@@ -22,7 +22,7 @@ public class ManageServicesTypeTest extends BaseTest {
 
     }
 
-    @Test
+    @Test(groups = {"RunAll","Sanity"})
     public void addManageServiceType() throws InterruptedException {
         HomePage homePage = landingPage.login("admin", "Admin123");
         AppointmentSchedulingPage appointmentSchedulingPage = homePage.goToAppointmentScheduling();
@@ -30,7 +30,7 @@ public class ManageServicesTypeTest extends BaseTest {
         manageServiceTypePage.addNewServicesType("PriyanshuTesting", "12", "lorem ipsum");
 
          }
-    @Test
+    @Test(groups = {"ErrorValidation","RunAll","Sanity"})
     public void searchManageServiceType() throws InterruptedException {
         HomePage homePage = landingPage.login("admin", "Admin123");
         AppointmentSchedulingPage appointmentSchedulingPage = homePage.goToAppointmentScheduling();

@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ed9182a-b39a-4abb-8664-ccd463566335" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/resources/Paralleltest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/resources/ErrorValidation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/resources/RunAll.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/resources/Sanity.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/PatientRecordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/PatientRecordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/RegisterPatientPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/RegisterPatientPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/FindPatientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/FindPatientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/ManagePrivilageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/ManagePrivilageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/ManageServicesTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/ManageServicesTypeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/RegisterPatientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/RegisterPatientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,21 +57,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/testvagrant/Desktop/parabank_first5/app/src/test/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="parabank_first5" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/test/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/test/resources" />
@@ -80,7 +87,7 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegisterPatientTest.testRegisterPatient">
+  <component name="RunManager" selected="TestNG./Users/testvagrant/Desktop/parabank_first5/app/src/test/resources/ErrorValidation.xml">
     <configuration name="FindPatientTest.checkPatientRecordDetail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -105,7 +112,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="FindPatientTest.findPatientById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FindPatientTest.findPatientByName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -118,7 +125,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;parabank_first5.FindPatientTest.findPatientById&quot;" />
+            <option value="&quot;parabank_first5.FindPatientTest.findPatientByName&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,9 +184,9 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="/Users/testvagrant/Desktop/parabank_first5/app/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/testvagrant/Desktop/parabank_first5/app/src/test/resources/ErrorValidation.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="parabank_first5.app.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/app/src/test/resources/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/app/src/test/resources/ErrorValidation.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -189,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/testvagrant/Desktop/parabank_first5/app/src/test/resources/ErrorValidation.xml" />
+        <item itemvalue="Gradle.FindPatientTest.findPatientByName" />
         <item itemvalue="Gradle.RegisterPatientTest.testRegisterPatient" />
         <item itemvalue="Gradle.RegisterPatientTest.navigateToRegisterPatientPage" />
         <item itemvalue="Gradle.FindPatientTest.checkPatientRecordDetail" />
-        <item itemvalue="Gradle.FindPatientTest.findPatientById" />
-        <item itemvalue="TestNG./Users/testvagrant/Desktop/parabank_first5/app/src/test/resources/testng.xml" />
       </list>
     </recent_temporary>
   </component>

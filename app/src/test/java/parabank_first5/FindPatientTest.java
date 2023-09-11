@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class FindPatientTest extends BaseTest {
 
-    @Test
+    @Test(groups = {"ErrorValidation","RunAll","Sanity"})
     public void navigateToFindPatientRecord() {
         String expectedPageHeader = "Find Patient Record";
         HomePage homePage = landingPage.login("admin", "Admin123");
@@ -14,7 +14,7 @@ public class FindPatientTest extends BaseTest {
         Assert.assertEquals(pageHeader, expectedPageHeader);
     }
 
-    @Test
+    @Test(groups = {"RunAll","Sanity"})
     public void findPatientByName() {
         String expectedPatientId = "100JH8";
         String patientName = "Test hars";
@@ -25,7 +25,7 @@ public class FindPatientTest extends BaseTest {
         Assert.assertEquals(patientId, expectedPatientId, "wrong patient found");
     }
 
-    @Test
+    @Test(groups = {"RunAll","Sanity"})
     public void findPatientById() {
         String patientId = "100JH8";
         String expectedPatientName = "Test";
@@ -36,7 +36,7 @@ public class FindPatientTest extends BaseTest {
         Assert.assertTrue(PatientName.contains(expectedPatientName), "wrong patient found");
     }
 
-    @Test
+    @Test(groups = {"RunAll","Sanity"})
     public void recordsFoundBYId() {
         String patientId = "100HVL";
         HomePage homePage = landingPage.login("admin", "Admin123");
@@ -45,7 +45,7 @@ public class FindPatientTest extends BaseTest {
         Assert.assertEquals(noOfPatientFound, 1, "More than one patient for same ID");
     }
 
-    @Test
+    @Test(groups = {"ErrorValidation","RunAll"})
     public void recordsFoundBYName() {
         String patientName = "Gaurav Kumar Jaiswal";
         HomePage homePage = landingPage.login("admin", "Admin123");
@@ -54,7 +54,7 @@ public class FindPatientTest extends BaseTest {
         Assert.assertEquals(noOfPatientFound, 15, "More than one patient for same ID");
     }
 
-    @Test
+    @Test(groups = {"RunAll","Sanity"})
     public void checkPatientRecordDetail() {
         String patientId = "100JH8";
         String expectedPatientGender = "Male";

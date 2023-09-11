@@ -31,14 +31,14 @@ public class BaseTest {
         return driver;
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public LandingPage launchApplication() throws IOException {
         driver = initialiseDriver();
         landingPage = new LandingPage(driver);
         landingPage.goTo();
         return landingPage;
     }
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown(){
         driver.close();
     }
