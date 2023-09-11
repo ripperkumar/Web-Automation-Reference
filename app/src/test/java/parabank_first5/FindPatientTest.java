@@ -17,7 +17,7 @@ public class FindPatientTest extends BaseTest {
     @Test
     public void findPatientByName() {
         String expectedPatientId = "100JH8";
-        String patientName = "Priyanshu kumar";
+        String patientName = "Test hars";
         HomePage homePage = landingPage.login("admin", "Admin123");
         FindPatientRecordPage findPatientRecord = homePage.goToFindPatientRecord();
         PatientRecordPage patientRecordPage = findPatientRecord.searchAndClickOnPatientRecord("name", patientName);
@@ -28,7 +28,7 @@ public class FindPatientTest extends BaseTest {
     @Test
     public void findPatientById() {
         String patientId = "100JH8";
-        String expectedPatientName = "Priyanshu";
+        String expectedPatientName = "Test";
         HomePage homePage = landingPage.login("admin", "Admin123");
         FindPatientRecordPage findPatientRecord = homePage.goToFindPatientRecord();
         PatientRecordPage patientRecordPage = findPatientRecord.searchAndClickOnPatientRecord("id", patientId);
@@ -58,8 +58,8 @@ public class FindPatientTest extends BaseTest {
     public void checkPatientRecordDetail() {
         String patientId = "100JH8";
         String expectedPatientGender = "Male";
-        String expectedPatientName = "Priyanshu";
-        String expectedPatientAddress = "dlnafsklad adlknlk akjldsnl, adjkb ajdnk adlnnlda, bangalorekarnatakaBharat560090";
+        String expectedPatientName = "Test";
+        String expectedPatientAddress = "abc";
 
         HomePage homePage = landingPage.login("admin", "Admin123");
         FindPatientRecordPage findPatientRecord = homePage.goToFindPatientRecord();

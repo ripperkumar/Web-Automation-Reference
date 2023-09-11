@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ed9182a-b39a-4abb-8664-ccd463566335" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/PatientRecordPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/FindPatientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/resources/Paralleltest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/AppointmentSchedulingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/AppointmentSchedulingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/ConfigureMetaDataPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/ConfigureMetaDataPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/FindPatientRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/FindPatientRecordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/ManagePrivilegesPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/ManagePrivilegesPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/ManageServiceTypePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/ManageServiceTypePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/FindPatient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/ManagePrivilageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/ManagePrivilageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/ManageServicesTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/ManageServicesTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/PatientRecordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/PatientRecordPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/parabank_first5/RegisterPatientPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/parabank_first5/RegisterPatientPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/FindPatientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/FindPatientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/parabank_first5/RegisterPatientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/parabank_first5/RegisterPatientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +71,7 @@
       <recent name="parabank_first5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/test/resources" />
       <recent name="$PROJECT_DIR$/app/src/main/java/parabank_first5" />
       <recent name="$PROJECT_DIR$/app/src/main/resources" />
       <recent name="$PROJECT_DIR$/app/src/main/resources/utilities" />
@@ -85,8 +80,8 @@
       <recent name="utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ManageServicesTypeTest.searchManageServiceType">
-    <configuration name="ManagePrivilageTest.SearchPrivilegeNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RegisterPatientTest.testRegisterPatient">
+    <configuration name="FindPatientTest.checkPatientRecordDetail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -99,7 +94,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;parabank_first5.ManagePrivilageTest.SearchPrivilegeNotFound&quot;" />
+            <option value="&quot;parabank_first5.FindPatientTest.checkPatientRecordDetail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -110,7 +105,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ManageServicesTypeTest.addManageServiceType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FindPatientTest.findPatientById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -123,7 +118,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;parabank_first5.ManageServicesTypeTest.addManageServiceType&quot;" />
+            <option value="&quot;parabank_first5.FindPatientTest.findPatientById&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,7 +129,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ManageServicesTypeTest.navigateToAppointmentScheduling" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegisterPatientTest.navigateToRegisterPatientPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,7 +142,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;parabank_first5.ManageServicesTypeTest.navigateToAppointmentScheduling&quot;" />
+            <option value="&quot;parabank_first5.RegisterPatientTest.navigateToRegisterPatientPage&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,7 +153,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ManageServicesTypeTest.navigateToManageServicePage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegisterPatientTest.testRegisterPatient" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -171,7 +166,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;parabank_first5.ManageServicesTypeTest.navigateToManageServicePage&quot;" />
+            <option value="&quot;parabank_first5.RegisterPatientTest.testRegisterPatient&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -182,37 +177,23 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ManageServicesTypeTest.searchManageServiceType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;parabank_first5.ManageServicesTypeTest.searchManageServiceType&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="/Users/testvagrant/Desktop/parabank_first5/app/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="parabank_first5.app.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/app/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ManageServicesTypeTest.searchManageServiceType" />
-        <item itemvalue="Gradle.ManageServicesTypeTest.addManageServiceType" />
-        <item itemvalue="Gradle.ManageServicesTypeTest.navigateToManageServicePage" />
-        <item itemvalue="Gradle.ManageServicesTypeTest.navigateToAppointmentScheduling" />
-        <item itemvalue="Gradle.ManagePrivilageTest.SearchPrivilegeNotFound" />
+        <item itemvalue="Gradle.RegisterPatientTest.testRegisterPatient" />
+        <item itemvalue="Gradle.RegisterPatientTest.navigateToRegisterPatientPage" />
+        <item itemvalue="Gradle.FindPatientTest.checkPatientRecordDetail" />
+        <item itemvalue="Gradle.FindPatientTest.findPatientById" />
+        <item itemvalue="TestNG./Users/testvagrant/Desktop/parabank_first5/app/src/test/resources/testng.xml" />
       </list>
     </recent_temporary>
   </component>

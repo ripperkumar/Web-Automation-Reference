@@ -42,6 +42,5 @@ public class PatientRecordPage extends UtilityComponents {
     public String getPatientAddress() {
         showPatientContactInfo();
         return patientAddress.getText();
-
     }
 }

@@ -1,4 +1,5 @@
 package parabank_first5;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,6 +12,9 @@ public class RegisterPatientPage extends UtilityComponents {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
+    @FindBy(tagName = "h2")
+    WebElement pageTitle;
 
     @FindBy(name = "givenName")
     WebElement givenName;
@@ -44,38 +48,58 @@ public class RegisterPatientPage extends UtilityComponents {
     By gender = By.id("gender-field");
     By relationship_type = By.id("relationship_type");
 
-    public void fillPatientDemographics() {
-        givenName.sendKeys("Priyanshu");
-        familyName.sendKeys("kumar");
+    public void fillPatientDemographics(String gname,String gFamilyName,String ggender,String gBirthYear,String gBirthMon) {
+        givenName.sendKeys(gname);
+        familyName.sendKeys(gFamilyName);
         nextBtn.click();
-        selectOption(gender, "Male");
-        nextBtn.click();
-
-        birthdateYear.sendKeys("18");
-        birthdateMonths.sendKeys("9");
+        selectOption(gender, ggender);
         nextBtn.click();
 
-    }
-
-    public void fillPatientContactInfo() {
-        address1.sendKeys("dlnafsklad adlknlk akjldsnl ");
-        address2.sendKeys("adjkb ajdnk adlnnlda");
-        cityVillage.sendKeys("bangalore");
-        stateProvince.sendKeys("karnataka");
-        country.sendKeys("Bharat");
-        postalCode.sendKeys("560090");
-        nextBtn.click();
-        phoneNumber.sendKeys("8877010105");
+        birthdateYear.sendKeys(gBirthYear);
+        birthdateMonths.sendKeys(gBirthMon);
         nextBtn.click();
 
     }
 
-    public void fillRelationInfo() {
-        selectOption(relationship_type, "Sibling");
-        relationName.sendKeys("devanshu");
+    public void fillPatientContactInfo(String addr1,String addr2,String cityVill,String gstate,String gcountry,String postal,String gphone) {
+        address1.sendKeys(addr1);
+        address2.sendKeys(addr2);
+        cityVillage.sendKeys(cityVill);
+        stateProvince.sendKeys(gstate);
+        country.sendKeys(gcountry);
+        postalCode.sendKeys(postal);
+        nextBtn.click();
+        phoneNumber.sendKeys(gphone);
+        nextBtn.click();
+
+    }
+
+    public void fillRelationInfo(String grelationType,String grelationName) {
+        selectOption(relationship_type, grelationType);
+        relationName.sendKeys(grelationName);
         nextBtn.click();
         submitBtn.click();
+    }
 
+    public String getPageTitle() {
+        return pageTitle.getText();
+    }
 
+    @FindBy(css = ".PersonName-givenName")
+    WebElement personFirstName;
+
+    public String getPatientFirstName()
+    {
+        waitForElementToAppear(By.className("PersonName-givenName"));
+        return personFirstName.getText();
+    }
+    public String getRegisterPatientGender(){
+        PatientRecordPage patientRecordPage= new PatientRecordPage(driver);
+        return patientRecordPage.getPatientGender();
+    }
+
+    public String getRegisterPatientAddr(){
+        PatientRecordPage patientRecordPage= new PatientRecordPage(driver);
+        return patientRecordPage.getPatientAddress();
     }
 }
