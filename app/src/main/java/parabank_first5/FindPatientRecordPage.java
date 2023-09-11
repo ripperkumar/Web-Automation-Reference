@@ -50,23 +50,26 @@ public class FindPatientRecordPage extends UtilityComponents {
         return noOfPatient;
     }
 
-    public WebElement getPatientRecordByName(String patientName) {
+    public WebElement getPatientRecordByName(String patientName) throws InterruptedException {
         searchBar.sendKeys(patientName);
+        Thread.sleep(2000);
+
         WebElement patient = getPatientsRecord().stream().filter(patients ->
                 patients.findElement(By.cssSelector("td:nth-child(2)")).getText().contains(patientName)).findFirst().orElse(null);
         return patient;
 
     }
 
-    public WebElement getPatientRecordById(String patientId) {
+    public WebElement getPatientRecordById(String patientId) throws InterruptedException {
         searchBar.sendKeys(patientId);
+        Thread.sleep(2000);
         WebElement patient = getPatientsRecord().stream().filter(patients ->
                 patients.findElement(By.cssSelector("td:nth-child(1)")).getText().contains(patientId)).findFirst().orElse(null);
         return patient;
 
     }
 
-    public PatientRecordPage searchAndClickOnPatientRecord(String idOrName, String patientNameOrId) {
+    public PatientRecordPage searchAndClickOnPatientRecord(String idOrName, String patientNameOrId) throws InterruptedException {
         WebElement patient;
         if (idOrName.equalsIgnoreCase("name")) {
             patient = getPatientRecordByName(patientNameOrId);

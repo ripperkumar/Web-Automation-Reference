@@ -15,8 +15,8 @@ public class FindPatientTest extends BaseTest {
     }
 
     @Test(groups = {"RunAll","Sanity"})
-    public void findPatientByName() {
-        String expectedPatientId = "100JH8";
+    public void findPatientByName() throws InterruptedException {
+        String expectedPatientId = "100JEG";
         String patientName = "Test hars";
         HomePage homePage = landingPage.login("admin", "Admin123");
         FindPatientRecordPage findPatientRecord = homePage.goToFindPatientRecord();
@@ -26,7 +26,7 @@ public class FindPatientTest extends BaseTest {
     }
 
     @Test(groups = {"RunAll","Sanity"})
-    public void findPatientById() {
+    public void findPatientById() throws InterruptedException {
         String patientId = "100JH8";
         String expectedPatientName = "Test";
         HomePage homePage = landingPage.login("admin", "Admin123");
@@ -55,7 +55,7 @@ public class FindPatientTest extends BaseTest {
     }
 
     @Test(groups = {"RunAll","Sanity"})
-    public void checkPatientRecordDetail() {
+    public void checkPatientRecordDetail() throws InterruptedException {
         String patientId = "100JH8";
         String expectedPatientGender = "Male";
         String expectedPatientName = "Test";
