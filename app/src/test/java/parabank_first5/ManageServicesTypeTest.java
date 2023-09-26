@@ -28,8 +28,8 @@ public class ManageServicesTypeTest extends BaseTest {
         AppointmentSchedulingPage appointmentSchedulingPage = homePage.goToAppointmentScheduling();
         ManageServiceTypePage manageServiceTypePage = appointmentSchedulingPage.goToManageServiceTypePage();
         manageServiceTypePage.addNewServicesType("PriyanshuTesting", "12", "lorem ipsum");
-
          }
+         
     @Test(groups = {"ErrorValidation","RunAll","Sanity"})
     public void searchManageServiceType() throws InterruptedException {
         HomePage homePage = landingPage.login("admin", "Admin123");

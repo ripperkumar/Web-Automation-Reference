@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="RunAll"/>
+        </run>
+    </groups>
+    <test thread-count="5" name="Find patient">
+        <classes>
+            <class name="parabank_first5.FindPatientTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Login test">
+        <classes>
+            <class name="parabank_first5.LoginTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Manage Privilege">
+        <classes>
+            <class name="parabank_first5.ManagePrivilageTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Manage services type">
+        <classes>
+            <class name="parabank_first5.ManageServicesTypeTest"/>
+        </classes>
+    </test>
+    <test thread-count="5" name="Register patient">
+        <classes>
+            <class name="parabank_first5.RegisterPatientTest"/>
+        </classes>
+    </test>
+</suite>
